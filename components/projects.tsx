@@ -63,7 +63,7 @@ const PROJECTS: Project[] = [
     title: 'Sluice Way Gate 3D Perspective',
     category: 'BIM & 3D Modeling',
     description:
-      '3D perspective sheet of the sluice way gate structure for the 6,000 kW Binalbagan 1 Mini Hydro Project, including the gate frame, channel, and energy dissipators.',
+      '3D perspective sheet of the sluice way gate structure for a 6,000 kW mini hydro project, including the gate frame, channel, and energy dissipators.',
     tags: ['3D Modeling', 'Hydraulic Structures', 'Hydropower'],
     image: '/projects/SLUICE_WAY_GATE_PERSPECTIVE-3dmodel-1.jpg',
   },
@@ -90,7 +90,7 @@ const PROJECTS: Project[] = [
     title: 'Right-of-Way Lot Plan',
     category: 'Civil & Terrain',
     description:
-      'Lot plan for the Binalbagan 1 power line route, identifying affected lots, owner parcels, electrical post locations, and affected areas in square meters.',
+      'Lot plan for a power line route, identifying affected lots, owner parcels, electrical post locations, and affected areas in square meters.',
     tags: ['AutoCAD', 'Site Plan', 'Right-of-Way'],
     image: '/projects/Roy_Galvan_Perimiter-1.jpg',
   },
@@ -99,7 +99,7 @@ const PROJECTS: Project[] = [
     title: 'Reinforced Concrete Pipe Culvert',
     category: 'Structural Drawings',
     description:
-      'Front, right, and isometric elevations of a Ø1600 mm RCPC with spiral and closed-tie reinforcement details for the 1,820 kW Binulug Mini Hydro Project.',
+      'Front, right, and isometric elevations of a Ø1600 mm RCPC with spiral and closed-tie reinforcement details for a 1,820 kW mini hydro project.',
     tags: ['AutoCAD', 'Reinforcement Detailing', 'RCPC'],
     image: '/projects/Reinforced_Concrete_Pipe_Culvert-1.jpg',
   },
@@ -114,7 +114,7 @@ const PROJECTS: Project[] = [
   },
   {
     id: 12,
-    title: 'RCPC Manhole — Binulug',
+    title: 'RCPC Manhole Details',
     category: 'Structural Drawings',
     description:
       'Manhole front and transverse elevations with rebar layout, a 3D model of the manhole body, and reinforced cover slab details.',
@@ -123,10 +123,10 @@ const PROJECTS: Project[] = [
   },
   {
     id: 13,
-    title: 'RCPC Manhole — Binalbagan 1',
+    title: 'RCPC Manhole — Standardized Set',
     category: 'Structural Drawings',
     description:
-      'Adapted manhole drawing set for the 6,000 kW Binalbagan 1 Mini Hydro Project, reusing standardized details and template blocks across projects.',
+      'Adapted manhole drawing set for a second mini hydro project, reusing standardized details and template blocks across projects.',
     tags: ['AutoCAD', 'Template Libraries', 'Manhole'],
     image: '/projects/Reinforced_Concrete_Pipe_Culvert-Manhole-1.jpg',
   },
@@ -162,7 +162,7 @@ const PROJECTS: Project[] = [
     title: 'Trashrack 2 Weir Intake Model',
     category: 'Steel Fabrication',
     description:
-      '3D model of the inclined 3000 × 6000 mm Trashrack 2 for the Binalbagan 1 weir intake.',
+      '3D model of the inclined 3000 × 6000 mm Trashrack 2 for the weir intake.',
     tags: ['AutoCAD 3D', 'Steel', 'Weir Intake'],
     image: '/projects/Trashrack_both_intake_and_outside_trashrack-4.jpg',
   },

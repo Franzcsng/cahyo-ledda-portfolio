@@ -15,7 +15,7 @@ const EXPERIENCE = [
     company: 'Tsukiden Electronics Philippines Inc.',
     period: 'January 2025 – May 2025',
     points: [
-      'Produced 2D drawings and 3D models in AutoCAD for the New Product Introduction (NPI) CAD Engineering team and fabricated them through 3D printing.',
+      'Produced 3D models in AutoCAD for the New Product Introduction (NPI) CAD Engineering team and fabricated them through 3D printing.',
       'Designed custom PCB seaters (holding fixtures) used in production and PCB inspection, achieving a 95% fit rate.',
     ],
   },
@@ -169,9 +169,34 @@ export default function About() {
             </div>
             <div className="space-y-1">
               <h4 className="text-lg font-semibold text-foreground">Certification</h4>
+              <p className="text-foreground font-medium">Autodesk AutoCAD Certified User</p>
               <p className="text-sm">
                 Negros Occidental Language &amp; Information Technology Center · 2025
               </p>
+              <p className="text-sm">
+                Issued by Certiport, a Pearson VUE business · Authorized by Autodesk
+              </p>
+              <p className="text-sm pt-2">
+                Validated entry-level AutoCAD skills, including creating and plotting
+                drawings, editing objects, and working with layouts.
+              </p>
+              <div className="flex flex-wrap gap-2 pt-2">
+                {[
+                  '2D Design',
+                  '3D Design',
+                  'CAD Drafting',
+                  'CAD Design',
+                  'Architecture Design',
+                  'Engineering Design',
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1 bg-primary text-primary-foreground text-sm rounded"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </div>

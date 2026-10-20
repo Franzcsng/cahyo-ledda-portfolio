@@ -10,6 +10,8 @@ interface Project {
   description: string
   tags: string[]
   image: string
+  // CSS object-position for the card crop, e.g. for portrait photos
+  imagePosition?: string
 }
 
 const PROJECTS: Project[] = [
@@ -166,6 +168,16 @@ const PROJECTS: Project[] = [
     tags: ['AutoCAD 3D', 'Steel', 'Weir Intake'],
     image: '/projects/Trashrack_both_intake_and_outside_trashrack-4.jpg',
   },
+  {
+    id: 18,
+    title: '3D-Printed Production Tray',
+    category: 'Fixtures & 3D Printing',
+    description:
+      'Custom production tool designed with AutoCAD 3D modeling and fabricated by 3D printing: a removable tray with a grid of part pockets, sitting on a slotted base with locating features. Taken from 3D solid model to finished print during my NPI CAD engineering internship.',
+    tags: ['AutoCAD 3D', '3D Printing', 'Fixture Design'],
+    image: '/projects/new-proj.jpg',
+    imagePosition: 'center 60%',
+  },
 ]
 
 export default function Projects() {
@@ -254,6 +266,7 @@ export default function Projects() {
                   fill
                   sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  style={{ objectPosition: project.imagePosition }}
                 />
               </div>
 
